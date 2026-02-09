@@ -1,0 +1,4 @@
+name = input(f"Hey, what's your first name? : ")
+last_name = input(f"And your last name? : ")
+full_name = name+" "+last_name+"."
+print(f"Well, pleased to meet you, {full_name}")
