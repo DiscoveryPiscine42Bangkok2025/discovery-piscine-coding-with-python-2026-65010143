@@ -1,17 +1,13 @@
-persons = input()
-
-text = persons.strip()[1:-1]
-pairs = text.split(",")
+dupont_family = {
+"florian": "red",
+"marie": "blond",
+"virginie": "brunette",
+"david": "red",
+"franck": "red"
+}
 a =[]
-person_d = {}
-for pair in pairs:
-    key, value = pair.split(":")
-    key = key.strip().strip('"')
-    value = value.strip().strip('"')
-    person_d[key] = value
-
-for i in person_d.keys():
-    if person_d[i] =="red":
+for i in dupont_family.keys():
+    if dupont_family[i] =="red":
         a.append(i)
 print(a)
     
