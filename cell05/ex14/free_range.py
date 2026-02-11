@@ -1,6 +1,6 @@
-x = input()
-x = x.split(" ")
-y = list(filter(lambda i:i !=" ",x))
+import sys
+
+y = sys.argv[1:]
 if len(y) != 2:
     print("none")
 else:
