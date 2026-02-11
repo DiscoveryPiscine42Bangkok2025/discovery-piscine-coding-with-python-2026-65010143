@@ -1,7 +1,7 @@
-x = input()
-y = x.split("'")
-y = x.split('"')
-y = list(filter(lambda i:i !=" " and i!="",y))
+import sys
+
+y = sys.argv[1:]
+
 if len(y) == 1:
     ans = input(f'What was the parameter? ')
     if y[0] == ans:
