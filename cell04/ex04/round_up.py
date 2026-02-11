@@ -1,4 +1,7 @@
-x = input(f"Give me first number: ")
+import sys
+x = sys.argv[1]
+
+print(f"Give me first number:",x)
 x = float(x)
 ix = int(x)   
 
