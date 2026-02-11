@@ -1,4 +1,6 @@
-x = input(f"Give me first number: ")
+import sys
+x = sys.argv[1]
+print(f"Give me first number:",x)
 try:
     x = int(x)
     print("This number is an integer.")
