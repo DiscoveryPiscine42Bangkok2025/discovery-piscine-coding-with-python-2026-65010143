@@ -1,7 +1,8 @@
-x = input()
-y = x.split("'")
-y = x.split('"')
-y = list(filter(lambda i:i !=" " and i!="",y))
+import sys
+
+y = sys.argv[1:]
+
+
 n = 0
 if len(y) != 2:
     print("none")
